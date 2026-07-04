@@ -32,8 +32,8 @@ const navLinks: NavLinkItem[] = [
   { to: '/novo', label: 'Novo Relatório', icon: ClipboardList },
   { to: '/relatorios', label: 'Relatórios Gerados', icon: History },
   { to: '/visitas/novo', label: 'Visita a Filiais', icon: MapPin },
-  { to: '/instalar', label: 'Instalar App', icon: Smartphone },
-  { to: '/brindes', label: 'Solicitar Brindes', icon: Gift }
+  { to: '/brindes', label: 'Solicitar Brindes', icon: Gift },
+  { to: '/instalar', label: 'Instalar App', icon: Smartphone }
 ]
 
 export const Layout: React.FC<LayoutProps> = ({ children, requireAdmin = false }) => {
